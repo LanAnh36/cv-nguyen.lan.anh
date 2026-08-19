@@ -1,46 +1,57 @@
 @font-face {
   font-family: 'open_sanslight';
-  src: url('https://github.io');
-  src: url('https://github.io?#iefix') format('embedded-opentype'),
-       url('https://github.io') format('woff'),
-       url('https://github.io') format('truetype'),
-       url('https://github.io') format('svg');
+  src: url('OpenSans-Light-webfont.eot');
+  src: url('OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('OpenSans-Light-webfont.woff') format('woff'),
+       url('OpenSans-Light-webfont.ttf') format('truetype'),
+       url('OpenSans-Light-webfont.svg#open_sanslight') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'open_sansitalic';
-  src: url('https://github.io');
-  src: url('https://github.io?#iefix') format('embedded-opentype'),
-       url('https://github.io') format('woff'),
-       url('https://github.io') format('truetype'),
-       url('https://github.io') format('svg');
+  src: url('OpenSans-Italic-webfont.eot');
+  src: url('OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+       url('OpenSans-Italic-webfont.woff') format('woff'),
+       url('OpenSans-Italic-webfont.ttf') format('truetype'),
+       url('OpenSans-Italic-webfont.svg#open_sansitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url('OpenSans-Semibold-webfont.eot');
+  src: url('OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('OpenSans-Semibold-webfont.woff') format('woff'),
+       url('OpenSans-Semibold-webfont.ttf') format('truetype'),
+       url('OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'et-line';
-  src: url('https://github.io');
-  src: url('https://github.io?#iefix') format('embedded-opentype'),
-       url('https://github.io') format('woff'),
-       url('https://github.io') format('truetype'),
-       url('https://github.io') format('svg');
+  src: url('et-line.eot');
+  src: url('et-line.eot?#iefix') format('embedded-opentype'),
+       url('et-line.woff') format('woff'),
+       url('et-line.ttf') format('truetype'),
+       url('et-line.svg#et-line') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('fontello.eot');
+  src: url('fontello.eot?#iefix') format('embedded-opentype'),
+       url('fontello.woff') format('woff'),
+       url('fontello.ttf') format('truetype'),
+       url('fontello.svg#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'fontello';
-  src: url('https://github.io');
-  src: url('https://github.io?#iefix') format('embedded-opentype'),
-       url('https://github.io') format('woff'),
-       url('https://github.io') format('truetype'),
-       url('https://github.io') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
