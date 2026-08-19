@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif, tahoma;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.grid-container {
+  display: grid;
+  width: 100%;
+  max-width: 1200px;
+  /* Chia làm 3 cột bằng nhau */
+  grid-template-columns: 1fr 1fr 1fr;
+  /* Định nghĩa 2 hàng dọc */
+  grid-template-rows: auto auto;
+  gap: 15px;
+  background-color: #7787f3; /* Viền xanh lớn bao quanh */
+  padding: 15px;
+}
+
+.box {
+  background-color: #f4f8ff;
+  border: 4px solid #7f8ff8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.goals-box {
+  grid-column: 1;
+  grid-row: 1;
+}
+.timeline-box {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.team-box {
+  grid-column: 2;
+  grid-row: 1;
+}
+.primary-box {
+  grid-column: 2;
+  grid-row: 2;
+}
+.title {
+  color: #5c69c1;
+  font-size: 24px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 8px;
+  margin-bottom: 5px;
+}
+
+.content-item {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.icon {
+  font-size: 20px;
+  color: #5c69c1;
+}
+
+.sub-title {
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 4px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.4;
+}
+.scopes-box {
+  grid-column: 1;
+  grid-row: 2;
+}
+.scopes-split h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+.in-side,
+.out-side {
+  flex: 1;
+  font-size: 14px;
+  color: #555;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  border-bottom: 1px dashed #ceddfa;
+  padding-bottom: 10px;
+}
+.timeline-item:last-child {
+  border-bottom: none;
+}
+.circle {
+  background-color: #93a5ff;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .timeline-box {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}

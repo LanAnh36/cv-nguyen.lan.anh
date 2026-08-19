@@ -1,0 +1,45 @@
+.avatar {
+  display: none;
+}
+.menu {
+  display: block !important;
+  justify-items: left !important;
+}
+.profile-content {
+  background: linear-gradient(to bottom, #ddd 50%, #ccc 50%);
+}
+#kinh-nghiem-hoc-van {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+.chung-chi {
+  display: grid;
+  grid-template-columns: 1fr; /* Chia màn hình làm 1 cột bằng nhau */
+  row-gap: 30px;
+}
+.certificate {
+  display: block;
+  border-bottom: 1px solid #d6c08d;
+}
+.certificate img {
+  width: 200px;
+  height: auto;
+  border: 2px solid #fff;
+}
+.certificate h3 {
+  font-size: 16px;
+}
+.duan {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 35px;
+  margin: 10px;
+}
+.duan-content {
+  margin-bottom: 20px;
+}
+.footer {
+  display: flex;
+  width: 30%;
+}

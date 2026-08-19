@@ -1,0 +1,23 @@
+.avatar {
+  display: none;
+}
+#kinh-nghiem-hoc-van {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.certificate img {
+  width: 250px;
+  height: auto;
+  border: 2px solid #fff;
+}
+.certificate h3 {
+  font-size: 16px;
+}
+.certificate {
+  display: block;
+}
+.footer {
+  display: inline-block;
+  width: 17%;
+}
