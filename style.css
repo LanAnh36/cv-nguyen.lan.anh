@@ -281,3 +281,26 @@
   text-decoration: none;
   color: #ccc;
 }
+/* Thiết kế nút Back to Top */
+#backToTop {
+  position: fixed; /* Ghim cố định ở góc màn hình */
+  bottom: 30px;
+  right: 30px;
+  z-index: 99; /* Luôn nổi lên trên cùng */
+  background-color: rgb(240, 134, 187);
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  display: flex; /* Xử dụng flex để căn icon vào chính giữa vòng tròn */
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease; /* Hiệu ứng mượt khi di chuột */
+}
+#backToTop:hover {
+  background-color: #333333;
+  transform: scale(1.1); /* Phóng to nhẹ */
+}
